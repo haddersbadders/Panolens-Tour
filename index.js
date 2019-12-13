@@ -18,7 +18,7 @@ infospot_hc = new PANOLENS.Infospot();
 
  panorama = new PANOLENS.ImagePanorama( 'images/broomhall/broomhall_kitchen_2.jpg' );
  panosandpit = new PANOLENS.ImagePanorama( 'images/broomhall/broomhall_sandpit_1.jpg' );
- panokitchenvid = new PANOLENS.VideoPanorama( 'images/video/kitchen1.mp4' );
+ panokitchenvid = new PANOLENS.VideoPanorama( 'images/video/kitchen1.mp4', { autoplay: true } );
 
 
 // Links //
@@ -33,3 +33,4 @@ panorama.link( panokitchenvid, new THREE.Vector3( -4889.52, -471.57, -888.95 ) )
 
 viewer.add( panorama );
 viewer.add( panosandpit );
+viewer.add( panokitchenvid );
