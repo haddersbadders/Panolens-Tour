@@ -18,12 +18,12 @@ infospot_hc = new PANOLENS.Infospot();
 
  panorama = new PANOLENS.ImagePanorama( 'images/broomhall/broomhall_kitchen_2.jpg' );
  panosandpit = new PANOLENS.ImagePanorama( 'images/broomhall/broomhall_sandpit_1.jpg' );
- panobaking = new PANOLENS.ImagePanorama( 'images/broomhall/broomhall_bakingwindow_1.jpg' );
+ panoplaykitchen = new PANOLENS.ImagePanorama( 'images/broomhall/play_kitchen.jpg' );
 
 
 // Links //
 // panorama.link( panosandpit, new THREE.Vector3( -4889.52, -471.57, -888.95 ) );
-panorama.link( panobaking, new THREE.Vector3( -4889.52, -471.57, -888.95 ) );
+panorama.link( panoplaykitchen, new THREE.Vector3( -4889.52, -471.57, -888.95 ) );
 
 
 
@@ -33,4 +33,4 @@ panorama.link( panobaking, new THREE.Vector3( -4889.52, -471.57, -888.95 ) );
 
 viewer.add( panorama );
 viewer.add( panosandpit );
-viewer.add( panobaking );
+viewer.add( panoplaykitchen );
